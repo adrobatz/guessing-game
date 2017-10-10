@@ -1,0 +1,66 @@
+html {
+  box-sizing: 'border-box'
+}
+body{
+  background-image: url('math.jpg');
+  background-size: cover;
+}
+#app{
+  background-color: rgba(255,255,255,.75);
+  margin: auto;
+  padding-bottom: 10%;
+  width: 100%;
+}
+#input-parent {
+  width: 160px;
+  margin: 5% auto 50px;
+  position: relative;
+}
+#player-input{
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  font-size: 60px;
+}
+#submit{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: 110px;
+  left: 110px;
+}
+.center {
+  text-align: center;
+}
+#guesses{
+  padding-top: 40px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.guess{
+  display: inline;
+  font-size: 60px;
+  border: 1px solid;
+  border-color: black;
+  border-radius: 10%;
+  padding: 5px 30px;
+}
+.btn{
+  background-color: lightblue;
+  color: white;
+}
+img {
+    display: inline;
+    width: 200px;
+    height: 100px;
+}
+#footer {
+    width: 100%;
+    border-top: solid 2px black;
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+}
